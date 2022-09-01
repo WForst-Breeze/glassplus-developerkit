@@ -1,2 +1,26 @@
-# glassplus-developerkit
-Added some convenient short commands to improve the efficiency of users in designing and debugging machines.
+# Command List
+* /gpinfo 查询您的Glass++模组包版本
+* /gb 获得一个屏障
+* /gcb 获得一个命令方块
+* /grcb 获得一个循环型命令方块
+* /gccb 获得一个连锁型命令方块
+* /gstick 获得一个调试棒
+* /efh 获得时间为999999秒，等级256的急迫效果
+* /efs 获得时间为999999秒，等级256的力量效果
+* /efn 获得时间为999999秒，等级10的夜视效果
+* /overworld 传送玩家至主世界（坐标不变）
+* /nether 传送玩家至下界（坐标不变）
+* /end 传送玩家至末地（坐标不变）
+# 命令列表
+* /gpinfo 查询您的Glass++模组包版本
+* /gb 获得一个屏障
+* /gcb 获得一个命令方块
+* /grcb 获得一个循环型命令方块
+* /gccb 获得一个连锁型命令方块
+* /gstick 获得一个调试棒
+* /efh 获得时间为999999秒，等级256的急迫效果
+* /efs 获得时间为999999秒，等级256的力量效果
+* /efn 获得时间为999999秒，等级10的夜视效果
+* /overworld 传送玩家至主世界（坐标不变）
+* /nether 传送玩家至下界（坐标不变）
+* /end 传送玩家至末地（坐标不变）
