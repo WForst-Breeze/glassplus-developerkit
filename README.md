@@ -1,4 +1,4 @@
-# Command List
+## Command List
 * /gpinfo Query your Glass++ modpack version
 * /gb Get a barrier
 * /gcb Get a command block
@@ -14,7 +14,7 @@
 * /deathboard Create a death scoreboard, displayed on the right side of the screen
 * /ckeepinf Turn off the gamerule: keepInventory
 * /ckeepintrue Turn on the gamerule: keepInventory
-# 命令列表
+## 命令列表
 * /gpinfo 查询您的Glass++模组包版本
 * /gb 获得一个屏障
 * /gcb 获得一个命令方块
