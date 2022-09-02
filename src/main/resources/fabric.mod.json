@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "id": "glasspp",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "name": "Glass++ Developer Kit",
   "description": "A Useful tool kit for the develpers.",
   "authors": [
     "WForst_Breeze"
   ],
   "contact": {
-    "homepage": "https://space.bilibili.com/506713078",
+    "homepage": "https://github.com/WForst-Breeze/glassplus-developerkit",
     "sources": ""
   },
   "license": "Creative Commons Attribution-NonCommercial 4.0 International License",

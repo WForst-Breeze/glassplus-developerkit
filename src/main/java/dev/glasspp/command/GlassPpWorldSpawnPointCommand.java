@@ -10,13 +10,13 @@ import net.minecraft.commands.Commands;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.CommandBuildContext;
 
-import dev.glasspp.procedures.KeepInventoryFalseProcedure;
+import dev.glasspp.procedures.WorldSpawnPointProcedure;
 
 import com.mojang.brigadier.CommandDispatcher;
 
-public class GlassPpKeepInventoryFCommand {
+public class GlassPpWorldSpawnPointCommand {
 	public static void register(CommandDispatcher<CommandSourceStack> dispatcher, CommandBuildContext commandBuildContext) {
-		dispatcher.register(Commands.literal("ckeepinf").requires(s -> s.hasPermission(4)).executes(arguments -> {
+		dispatcher.register(Commands.literal("wspoint").requires(s -> s.hasPermission(4)).executes(arguments -> {
 			ServerLevel world = arguments.getSource().getLevel();
 			double x = arguments.getSource().getPosition().x();
 			double y = arguments.getSource().getPosition().y();
@@ -24,7 +24,8 @@ public class GlassPpKeepInventoryFCommand {
 			Entity entity = arguments.getSource().getEntity();
 			Direction direction = entity.getDirection();
 
-			KeepInventoryFalseProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("entity", entity).build());
+			WorldSpawnPointProcedure
+					.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("entity", entity).build());
 			return 0;
 		}));
 	}

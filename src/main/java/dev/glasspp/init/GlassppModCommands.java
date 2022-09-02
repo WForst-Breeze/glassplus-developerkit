@@ -9,13 +9,18 @@ import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
 import dev.glasspp.command.ToTheNetherCommand;
 import dev.glasspp.command.ToTheEndCommand;
 import dev.glasspp.command.ToOverworldCCommand;
+import dev.glasspp.command.PlassPpGm0Command;
 import dev.glasspp.command.GpModeInfoCommand;
+import dev.glasspp.command.GlassPpWorldSpawnPointCommand;
 import dev.glasspp.command.GlassPpStrengthCommand;
 import dev.glasspp.command.GlassPpRCBCommand;
 import dev.glasspp.command.GlassPpNightvisionCommand;
 import dev.glasspp.command.GlassPpKeepInventoryFCommand;
 import dev.glasspp.command.GlassPpKeepInventoryCommand;
 import dev.glasspp.command.GlassPpHasteCommand;
+import dev.glasspp.command.GlassPpGm3Command;
+import dev.glasspp.command.GlassPpGm2Command;
+import dev.glasspp.command.GlassPpGm1Command;
 import dev.glasspp.command.GlassPpDeathCommand;
 import dev.glasspp.command.GlassPpCCBCommand;
 import dev.glasspp.command.GlassPpCBCommand;
@@ -42,6 +47,11 @@ public class GlassppModCommands {
 			ToTheNetherCommand.register(dispatcher, commandBuildContext);
 			ToTheEndCommand.register(dispatcher, commandBuildContext);
 			GpModeInfoCommand.register(dispatcher, commandBuildContext);
+			GlassPpWorldSpawnPointCommand.register(dispatcher, commandBuildContext);
+			GlassPpGm1Command.register(dispatcher, commandBuildContext);
+			PlassPpGm0Command.register(dispatcher, commandBuildContext);
+			GlassPpGm2Command.register(dispatcher, commandBuildContext);
+			GlassPpGm3Command.register(dispatcher, commandBuildContext);
 		});
 	}
 }

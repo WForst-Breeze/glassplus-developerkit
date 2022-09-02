@@ -4,13 +4,17 @@
  */
 package dev.glasspp.init;
 
+import dev.glasspp.procedures.WorldSpawnPointProcedure;
 import dev.glasspp.procedures.ToOverworldProcedure;
 import dev.glasspp.procedures.ToNetherProcedure;
 import dev.glasspp.procedures.ToEndProcedure;
+import dev.glasspp.procedures.SpectatorGm3Procedure;
 import dev.glasspp.procedures.RepeatingCommandblockGivenProcedure;
+import dev.glasspp.procedures.QwProcedure;
 import dev.glasspp.procedures.ModGpInfoProcedure;
 import dev.glasspp.procedures.KeepInventoryProcedure;
 import dev.glasspp.procedures.KeepInventoryFalseProcedure;
+import dev.glasspp.procedures.GlassPpGm0Procedure;
 import dev.glasspp.procedures.EffectStrengthGivenProcedure;
 import dev.glasspp.procedures.EffectNightVisionGivenProcedure;
 import dev.glasspp.procedures.EffectHasteGivenProcedure;
@@ -20,6 +24,7 @@ import dev.glasspp.procedures.DeathCountScoreboardProcedure;
 import dev.glasspp.procedures.CommandblockGivenProcedure;
 import dev.glasspp.procedures.ChainCommandblockGivenProcedure;
 import dev.glasspp.procedures.BarrierGivenProcedure;
+import dev.glasspp.procedures.AdventureGm2Procedure;
 
 @SuppressWarnings("InstantiationOfUtilityClass")
 public class GlassppModProcedures {
@@ -40,5 +45,10 @@ public class GlassppModProcedures {
 		new ToNetherProcedure();
 		new ToEndProcedure();
 		new ModGpInfoProcedure();
+		new WorldSpawnPointProcedure();
+		new QwProcedure();
+		new GlassPpGm0Procedure();
+		new AdventureGm2Procedure();
+		new SpectatorGm3Procedure();
 	}
 }

@@ -19,7 +19,7 @@ public class ModGpInfoProcedure {
 			Entity _ent = entity;
 			if (!_ent.level.isClientSide() && _ent.getServer() != null)
 				_ent.getServer().getCommands().performPrefixedCommand(_ent.createCommandSourceStack().withSuppressedOutput().withPermission(4),
-						"/tellraw @p {\"text\":\"Mod Version: v1.3.2\\nChangelog:\\n-Changed the command /ckeepintrue to /ckeepint;\\n-Added /gpmodinfo to show mod version and changelog;\\n-Fix one bug.\"}");
+						"/tellraw @p {\"text\":\"/tellraw @a {\"text\":\"Mod Version: v.1.3.3\\nChangelog:\\n-Added /gm0, /gm1, /gm2, /gm3 to change player's gamemode to survival, creative, adventure, spectator mode\\n-Added /wspoint to check world spawn point\"}\"}");
 		}
 	}
 }

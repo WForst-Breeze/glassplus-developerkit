@@ -9,9 +9,9 @@ import net.minecraft.commands.CommandBuildContext;
 
 import com.mojang.brigadier.CommandDispatcher;
 
-public class GlassPpCCBCommand {
+public class GlassPpGm3Command {
 	public static void register(CommandDispatcher<CommandSourceStack> dispatcher, CommandBuildContext commandBuildContext) {
-		dispatcher.register(Commands.literal("gccb").requires(s -> s.hasPermission(4))
+		dispatcher.register(Commands.literal("gm3").requires(s -> s.hasPermission(4))
 
 		);
 	}

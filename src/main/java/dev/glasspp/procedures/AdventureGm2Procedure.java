@@ -6,12 +6,12 @@ import java.util.Map;
 
 import dev.glasspp.GlassppMod;
 
-public class ChainCommandblockGivenProcedure {
+public class AdventureGm2Procedure {
 
 	public static void execute(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				GlassppMod.LOGGER.warn("Failed to load dependency entity for procedure ChainCommandblockGiven!");
+				GlassppMod.LOGGER.warn("Failed to load dependency entity for procedure AdventureGm2!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -19,13 +19,7 @@ public class ChainCommandblockGivenProcedure {
 			Entity _ent = entity;
 			if (!_ent.level.isClientSide() && _ent.getServer() != null)
 				_ent.getServer().getCommands().performPrefixedCommand(_ent.createCommandSourceStack().withSuppressedOutput().withPermission(4),
-						"give @p minecraft:chain_command_block");
-		}
-		{
-			Entity _ent = entity;
-			if (!_ent.level.isClientSide() && _ent.getServer() != null)
-				_ent.getServer().getCommands().performPrefixedCommand(_ent.createCommandSourceStack().withSuppressedOutput().withPermission(4),
-						"tellraw @p \"chain command block has been given, pealse check your inventory\"");
+						"gamemode adventure");
 		}
 	}
 }
