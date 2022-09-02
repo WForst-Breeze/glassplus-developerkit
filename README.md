@@ -3,6 +3,7 @@
 <br />This is my first MCreator work, a very simple auxiliary mod! Used to shorten some lengthy commands, so that machine developers can improve the efficiency of machine design and debugging!
 ## Command List
 * /gpinfo: Query your Glass++ modpack version
+* /gpmodinfo: Query your Glass++ Developer Kit version and changelogs
 * /gb: Get a barrier
 * /gcb: Get a command block
 * /grcb: Get a repeating command block
@@ -18,7 +19,8 @@
 * /ckeepinf: Turn off the gamerule: keepInventory
 * /ckeepintrue: Turn on the gamerule: keepInventory
 ## 命令列表
-* /gpinfo 查询您的Glass++模组包版本
+* /gpinfo 查询Glass++模组包版本
+* /gpmodinfo 查询Glass++DeveloperKit版本和更新日志
 * /gb 获得一个屏障
 * /gcb 获得一个命令方块
 * /grcb 获得一个循环型命令方块
@@ -32,7 +34,7 @@
 * /end 传送玩家至末地（坐标不变）
 * /deathboard 创建一个死亡榜，显示在屏幕右侧
 * /ckeepinf 关闭死亡不掉落
-* /ckeepintrue 打开死亡不掉落
+* /ckeepint 打开死亡不掉落
 ## 协议 License
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可。
