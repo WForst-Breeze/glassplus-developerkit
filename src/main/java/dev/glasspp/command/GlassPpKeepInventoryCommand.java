@@ -16,7 +16,7 @@ import com.mojang.brigadier.CommandDispatcher;
 
 public class GlassPpKeepInventoryCommand {
 	public static void register(CommandDispatcher<CommandSourceStack> dispatcher, CommandBuildContext commandBuildContext) {
-		dispatcher.register(Commands.literal("ckeepintrue").requires(s -> s.hasPermission(4)).executes(arguments -> {
+		dispatcher.register(Commands.literal("ckeepint").requires(s -> s.hasPermission(4)).executes(arguments -> {
 			ServerLevel world = arguments.getSource().getLevel();
 			double x = arguments.getSource().getPosition().x();
 			double y = arguments.getSource().getPosition().y();

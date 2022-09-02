@@ -375,6 +375,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "to_the_end"
+    },
+    {
+      "name": "ModGpInfo",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_gp_info",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GpModeInfo",
+      "type": "command",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gp_mode_info"
     }
   ],
   "variable_elements": [],
@@ -389,7 +413,7 @@
   "workspaceSettings": {
     "modid": "glasspp",
     "modName": "Glass++ Developer Kit",
-    "version": "Mod v1.3.1 for Modpack v2.0",
+    "version": "1.3.2",
     "description": "A Useful tool kit for the develpers.",
     "author": "WForst_Breeze",
     "websiteURL": "https://space.bilibili.com/506713078",

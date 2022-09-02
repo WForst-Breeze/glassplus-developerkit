@@ -8,6 +8,7 @@ import dev.glasspp.procedures.ToOverworldProcedure;
 import dev.glasspp.procedures.ToNetherProcedure;
 import dev.glasspp.procedures.ToEndProcedure;
 import dev.glasspp.procedures.RepeatingCommandblockGivenProcedure;
+import dev.glasspp.procedures.ModGpInfoProcedure;
 import dev.glasspp.procedures.KeepInventoryProcedure;
 import dev.glasspp.procedures.KeepInventoryFalseProcedure;
 import dev.glasspp.procedures.EffectStrengthGivenProcedure;
@@ -38,5 +39,6 @@ public class GlassppModProcedures {
 		new ToOverworldProcedure();
 		new ToNetherProcedure();
 		new ToEndProcedure();
+		new ModGpInfoProcedure();
 	}
 }

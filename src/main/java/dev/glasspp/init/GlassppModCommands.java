@@ -9,6 +9,7 @@ import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
 import dev.glasspp.command.ToTheNetherCommand;
 import dev.glasspp.command.ToTheEndCommand;
 import dev.glasspp.command.ToOverworldCCommand;
+import dev.glasspp.command.GpModeInfoCommand;
 import dev.glasspp.command.GlassPpStrengthCommand;
 import dev.glasspp.command.GlassPpRCBCommand;
 import dev.glasspp.command.GlassPpNightvisionCommand;
@@ -40,6 +41,7 @@ public class GlassppModCommands {
 			ToOverworldCCommand.register(dispatcher, commandBuildContext);
 			ToTheNetherCommand.register(dispatcher, commandBuildContext);
 			ToTheEndCommand.register(dispatcher, commandBuildContext);
+			GpModeInfoCommand.register(dispatcher, commandBuildContext);
 		});
 	}
 }
