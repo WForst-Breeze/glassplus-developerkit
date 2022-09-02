@@ -1,0 +1,638 @@
+{
+  "mod_elements": [
+    {
+      "name": "DebugstickGiven",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debugstick_given",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlassPPStick",
+      "type": "command",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_pp_stick"
+    },
+    {
+      "name": "CommandblockGiven",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "commandblock_given",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlassPpCB",
+      "type": "command",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_pp_cb"
+    },
+    {
+      "name": "ChainCommandblockGiven",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chain_commandblock_given",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlassPpCCB",
+      "type": "command",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_pp_ccb"
+    },
+    {
+      "name": "RepeatingCommandblockGiven",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "repeating_commandblock_given",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlassPpRCB",
+      "type": "command",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_pp_rcb"
+    },
+    {
+      "name": "BarrierGiven",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barrier_given",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlassPpBarrier",
+      "type": "command",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_pp_barrier"
+    },
+    {
+      "name": "EffectHasteGiven",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "effect_haste_given",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlassPpHaste",
+      "type": "command",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_pp_haste"
+    },
+    {
+      "name": "EffectStrengthGiven",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "effect_strength_given",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlassPpStrength",
+      "type": "command",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_pp_strength"
+    },
+    {
+      "name": "EffectNightVisionGiven",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "effect_night_vision_given",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlassPpNightvision",
+      "type": "command",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_pp_nightvision"
+    },
+    {
+      "name": "DeathCountScoreboard",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_count_scoreboard",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlassPpDeath",
+      "type": "command",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_pp_death"
+    },
+    {
+      "name": "KeepInventory",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "keep_inventory",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlassPpKeepInventory",
+      "type": "command",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_pp_keep_inventory"
+    },
+    {
+      "name": "KeepInventoryFalse",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "keep_inventory_false",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlassPpKeepInventoryF",
+      "type": "command",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_pp_keep_inventory_f"
+    },
+    {
+      "name": "ToOverworld",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "to_overworld",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ToOverworldC",
+      "type": "command",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "to_overworld_c"
+    },
+    {
+      "name": "ToNether",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "to_nether",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ToTheNether",
+      "type": "command",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "to_the_nether"
+    },
+    {
+      "name": "ToEnd",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "to_end",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ToTheEnd",
+      "type": "command",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "to_the_end"
+    },
+    {
+      "name": "WorldSpawnPoint",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "world_spawn_point",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlassPpWorldSpawnPoint",
+      "type": "command",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_pp_world_spawn_point"
+    },
+    {
+      "name": "Qw",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creativegm1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlassPpGm1",
+      "type": "command",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_pp_gm_1"
+    },
+    {
+      "name": "GlassPpGm0",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_pp_gm_0",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlassPpGm0",
+      "type": "command",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plass_pp_gm_0"
+    },
+    {
+      "name": "AdventureGm2",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adventure_gm_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlassPpGm2",
+      "type": "command",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_pp_gm_2"
+    },
+    {
+      "name": "SpectatorGm3",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spectator_gm_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlassPpGm3",
+      "type": "command",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_pp_gm_3"
+    },
+    {
+      "name": "Info",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "info",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlassPpInfo",
+      "type": "command",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_pp_info"
+    },
+    {
+      "name": "SuperPotion",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_potion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlassPpPotion",
+      "type": "command",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_pp_potion"
+    },
+    {
+      "name": "TimeSetDay",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "time_set_day",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlassPpDay",
+      "type": "command",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_pp_day"
+    },
+    {
+      "name": "TimeSetNoon",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "time_set_noon",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlassPpNoon",
+      "type": "command",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_pp_noon"
+    },
+    {
+      "name": "TimeSetNight",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "time_set_night",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlassPpNight",
+      "type": "command",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_pp_night"
+    },
+    {
+      "name": "TimeSetMidnight",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "time_set_midnight",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlassPpMidnight",
+      "type": "command",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_pp_midnight"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "glasspp",
+    "modName": "Glass++ Developer Kit",
+    "version": "1.4.0_beta",
+    "description": "A Useful tool kit for the develpers.",
+    "author": "WForst_Breeze",
+    "websiteURL": "https://github.com/WForst-Breeze/glassplus-developerkit",
+    "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "glassdevkitlogo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.19.2",
+    "credits": "Made with MCreator",
+    "modElementsPackage": "dev.glasspp",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}

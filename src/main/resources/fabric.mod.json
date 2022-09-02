@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "glasspp",
+  "version": "1.4.0_beta",
+  "name": "Glass++ Developer Kit",
+  "description": "A Useful tool kit for the develpers.",
+  "authors": [
+    "WForst_Breeze"
+  ],
+  "contact": {
+    "homepage": "https://github.com/WForst-Breeze/glassplus-developerkit",
+    "sources": ""
+  },
+  "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+  "icon": "assets/glasspp/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.glasspp.GlassppMod"
+    ],
+    "client": [
+      "dev.glasspp.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  }
+}
