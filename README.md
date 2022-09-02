@@ -18,6 +18,8 @@
 * /deathboard: Create a death scoreboard, displayed on the right side of the screen
 * /ckeepinf: Turn off the gamerule: keepInventory
 * /ckeepintrue: Turn on the gamerule: keepInventory
+* /wspoint: Get the world spawn point and generate a damage-free lightning bolt there
+* /gm0, /gm1, /gm2, /gm3 Change the player's gamemode to survival, creative, adventure, spectator mode
 ## 命令列表
 * /gpinfo 查询Glass++模组包版本
 * /gpmodinfo 查询Glass++DeveloperKit版本和更新日志
@@ -35,6 +37,8 @@
 * /deathboard 创建一个死亡榜，显示在屏幕右侧
 * /ckeepinf 关闭死亡不掉落
 * /ckeepint 打开死亡不掉落
+* /wspoint 获取世界出生点并在此生成一束无伤害的闪电
+* /gm0、/gm1、/gm2、/gm3 更改游戏模式至生存模式、创造模式、冒险模式、旁观模式
 ## 协议 License
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可。
