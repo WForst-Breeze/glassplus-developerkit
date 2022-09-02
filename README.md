@@ -2,8 +2,7 @@
 这是我的第一个MCreator作品，是个非常简单的辅助型模组！用于缩短某些冗长的常用指令，这样生电党就可以提升机器设计与调试效率了！
 <br />This is my first MCreator work, a very simple auxiliary mod! Used to shorten some lengthy commands, so that machine developers can improve the efficiency of machine design and debugging!
 ## Command List
-* /gpinfo: Query your Glass++ modpack version
-* /gpmodinfo: Query your Glass++ Developer Kit version and changelogs
+* /glassinfo: Check the version of the mod
 * /gb: Get a barrier
 * /gcb: Get a command block
 * /grcb: Get a repeating command block
@@ -19,10 +18,11 @@
 * /ckeepinf: Turn off the gamerule: keepInventory
 * /ckeepintrue: Turn on the gamerule: keepInventory
 * /wspoint: Get the world spawn point and generate a damage-free lightning bolt there
-* /gm0, /gm1, /gm2, /gm3 Change the player's gamemode to survival, creative, adventure, spectator mode
+* /gm0, /gm1, /gm2, /gm3: Change the player's gamemode to survival, creative, adventure, spectator mode
+* /tsd、/tsno、/tsni、tsmn: Set time to day, noon, night, midnight
+* /sp: Get a potion which has most of the buff
 ## 命令列表
-* /gpinfo 查询Glass++模组包版本
-* /gpmodinfo 查询Glass++DeveloperKit版本和更新日志
+* /glassinfo 查看mod版本
 * /gb 获得一个屏障
 * /gcb 获得一个命令方块
 * /grcb 获得一个循环型命令方块
@@ -39,6 +39,8 @@
 * /ckeepint 打开死亡不掉落
 * /wspoint 获取世界出生点并在此生成一束无伤害的闪电
 * /gm0、/gm1、/gm2、/gm3 更改游戏模式至生存模式、创造模式、冒险模式、旁观模式
+* /tsd、/tsno、/tsni、tsmn 设置游戏时间至早上、正午、傍晚、午夜
+* /sp 获得一个拥有绝大多数正面状态效果的药水
 ## 协议 License
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可。
