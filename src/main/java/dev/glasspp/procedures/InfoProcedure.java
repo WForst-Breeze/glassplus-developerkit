@@ -19,7 +19,7 @@ public class InfoProcedure {
 			Entity _ent = entity;
 			if (!_ent.level.isClientSide() && _ent.getServer() != null)
 				_ent.getServer().getCommands().performPrefixedCommand(_ent.createCommandSourceStack().withSuppressedOutput().withPermission(4),
-						"tellraw @p \"Version: 1.4.0_beta\"");
+						"tellraw @p \"Version: 1.4.0_beta02\"");
 		}
 	}
 }

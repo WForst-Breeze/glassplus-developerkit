@@ -6,12 +6,12 @@ import java.util.Map;
 
 import dev.glasspp.GlassppMod;
 
-public class EffectHasteGivenProcedure {
+public class SuperUnbreakableSwordProcedure {
 
 	public static void execute(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				GlassppMod.LOGGER.warn("Failed to load dependency entity for procedure EffectHasteGiven!");
+				GlassppMod.LOGGER.warn("Failed to load dependency entity for procedure SuperUnbreakableSword!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -19,13 +19,7 @@ public class EffectHasteGivenProcedure {
 			Entity _ent = entity;
 			if (!_ent.level.isClientSide() && _ent.getServer() != null)
 				_ent.getServer().getCommands().performPrefixedCommand(_ent.createCommandSourceStack().withSuppressedOutput().withPermission(4),
-						"/effect give @p haste 999999 127 true");
-		}
-		{
-			Entity _ent = entity;
-			if (!_ent.level.isClientSide() && _ent.getServer() != null)
-				_ent.getServer().getCommands().performPrefixedCommand(_ent.createCommandSourceStack().withSuppressedOutput().withPermission(4),
-						"tellraw @p \"HASTE!\"");
+						"/give @s minecraft:diamond_sword{display:{Name:'{\"text\":\"The Sword of GlassPlus++\",\"color\":\"gold\"}'},Unbreakable:1,Enchantments:[{id:\"sharpness\",lvl:5},{id:\"unbreaking\",lvl:3},{id:\"sweeping\",lvl:3},{id:\"looting\",lvl:3},{id:\"mending\",lvl:1}]} 1");
 		}
 	}
 }

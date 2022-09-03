@@ -9,6 +9,9 @@ import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
 import dev.glasspp.command.ToTheNetherCommand;
 import dev.glasspp.command.ToTheEndCommand;
 import dev.glasspp.command.ToOverworldCCommand;
+import dev.glasspp.command.SwordUnbreakableCommand;
+import dev.glasspp.command.SwordLootingCommand;
+import dev.glasspp.command.SwordBasicCommand;
 import dev.glasspp.command.PlassPpGm0Command;
 import dev.glasspp.command.GlassPpWorldSpawnPointCommand;
 import dev.glasspp.command.GlassPpStrengthCommand;
@@ -18,6 +21,7 @@ import dev.glasspp.command.GlassPpNoonCommand;
 import dev.glasspp.command.GlassPpNightvisionCommand;
 import dev.glasspp.command.GlassPpNightCommand;
 import dev.glasspp.command.GlassPpMidnightCommand;
+import dev.glasspp.command.GlassPpMaxLevelCommand;
 import dev.glasspp.command.GlassPpKeepInventoryFCommand;
 import dev.glasspp.command.GlassPpKeepInventoryCommand;
 import dev.glasspp.command.GlassPpInfoCommand;
@@ -31,6 +35,7 @@ import dev.glasspp.command.GlassPpCCBCommand;
 import dev.glasspp.command.GlassPpCBCommand;
 import dev.glasspp.command.GlassPpBarrierCommand;
 import dev.glasspp.command.GlassPPStickCommand;
+import dev.glasspp.command.CheckPointCommand;
 
 public class GlassppModCommands {
 	public static void load() {
@@ -60,6 +65,11 @@ public class GlassppModCommands {
 			GlassPpNoonCommand.register(dispatcher, commandBuildContext);
 			GlassPpNightCommand.register(dispatcher, commandBuildContext);
 			GlassPpMidnightCommand.register(dispatcher, commandBuildContext);
+			CheckPointCommand.register(dispatcher, commandBuildContext);
+			GlassPpMaxLevelCommand.register(dispatcher, commandBuildContext);
+			SwordBasicCommand.register(dispatcher, commandBuildContext);
+			SwordLootingCommand.register(dispatcher, commandBuildContext);
+			SwordUnbreakableCommand.register(dispatcher, commandBuildContext);
 		});
 	}
 }

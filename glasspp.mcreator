@@ -603,6 +603,126 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "glass_pp_midnight"
+    },
+    {
+      "name": "SpawnPoint",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_point",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CheckPoint",
+      "type": "command",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "check_point"
+    },
+    {
+      "name": "XpMax",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xp_max",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlassPpMaxLevel",
+      "type": "command",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_pp_max_level"
+    },
+    {
+      "name": "SuperSwordWithoutMending",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_sword_without_mending",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SwordBasic",
+      "type": "command",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sword_basic"
+    },
+    {
+      "name": "SuperLootingSword",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_looting_sword",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SwordLooting",
+      "type": "command",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sword_looting"
+    },
+    {
+      "name": "SuperUnbreakableSword",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_unbreakable_sword",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SwordUnbreakable",
+      "type": "command",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sword_unbreakable"
     }
   ],
   "variable_elements": [],
@@ -617,7 +737,7 @@
   "workspaceSettings": {
     "modid": "glasspp",
     "modName": "Glass++ Developer Kit",
-    "version": "1.4.0_beta",
+    "version": "1.4.0_beta02",
     "description": "A Useful tool kit for the develpers.",
     "author": "WForst_Breeze",
     "websiteURL": "https://github.com/WForst-Breeze/glassplus-developerkit",

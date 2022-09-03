@@ -4,6 +4,7 @@
  */
 package dev.glasspp.init;
 
+import dev.glasspp.procedures.XpMaxProcedure;
 import dev.glasspp.procedures.WorldSpawnPointProcedure;
 import dev.glasspp.procedures.ToOverworldProcedure;
 import dev.glasspp.procedures.ToNetherProcedure;
@@ -12,8 +13,12 @@ import dev.glasspp.procedures.TimeSetNoonProcedure;
 import dev.glasspp.procedures.TimeSetNightProcedure;
 import dev.glasspp.procedures.TimeSetMidnightProcedure;
 import dev.glasspp.procedures.TimeSetDayProcedure;
+import dev.glasspp.procedures.SuperUnbreakableSwordProcedure;
+import dev.glasspp.procedures.SuperSwordWithoutMendingProcedure;
 import dev.glasspp.procedures.SuperPotionProcedure;
+import dev.glasspp.procedures.SuperLootingSwordProcedure;
 import dev.glasspp.procedures.SpectatorGm3Procedure;
+import dev.glasspp.procedures.SpawnPointProcedure;
 import dev.glasspp.procedures.RepeatingCommandblockGivenProcedure;
 import dev.glasspp.procedures.QwProcedure;
 import dev.glasspp.procedures.KeepInventoryProcedure;
@@ -58,5 +63,10 @@ public class GlassppModProcedures {
 		new TimeSetNoonProcedure();
 		new TimeSetNightProcedure();
 		new TimeSetMidnightProcedure();
+		new SpawnPointProcedure();
+		new XpMaxProcedure();
+		new SuperSwordWithoutMendingProcedure();
+		new SuperLootingSwordProcedure();
+		new SuperUnbreakableSwordProcedure();
 	}
 }
