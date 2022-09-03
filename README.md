@@ -16,7 +16,7 @@
 * /end: Teleports the player to the end
 * /deathboard: Create a death scoreboard, displayed on the right side of the screen
 * /ckeepinf: Turn off the gamerule: keepInventory
-* /ckeepintrue: Turn on the gamerule: keepInventory
+* /ckeepint: Turn on the gamerule: keepInventory
 * /wspoint: Get the world spawn point and generate a damage-free lightning bolt there
 * /gm0, /gm1, /gm2, /gm3: Change the player's gamemode to survival, creative, adventure, spectator mode
 * /tsd、/tsno、/tsni、tsmn: Set time to day, noon, night, midnight
