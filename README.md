@@ -20,7 +20,12 @@
 * /wspoint: Get the world spawn point and generate a damage-free lightning bolt there
 * /gm0, /gm1, /gm2, /gm3: Change the player's gamemode to survival, creative, adventure, spectator mode
 * ~~/tsd、/tsno、/tsni、tsmn: Set time to day, noon, night, midnight~~ (Beta)
-* ~~/sp: Get a potion which has most of the buff~~ (Beta)
+* ~~/superpotion: Get a potion which has most of the buff~~ (Beta)
+* ~~/sp: Has the same effect as /spawnpoint~~ (Beta)
+* ~~/xpmax: Increase the player's level by 238609310~~ (Beta)
+* ~~/swordofbasic: Get a diamond sword has unbreaking III, sharpness V, sweeping edge III~~ (Beta)
+* ~~/swordoflooting: Get a diamond sword has unbreaking III, sharpness V, sweeping edge III, Looting III~~ (Beta)
+* ~~/swordofsuper: Get a **UNBREAKABLE** diamond sword has unbreaking III, sharpness V, sweeping edge III~~ (Beta)
 ## 命令列表
 * /glassinfo 查看mod版本
 * /gb 获得一个屏障
@@ -40,7 +45,12 @@
 * /wspoint 获取世界出生点并在此生成一束无伤害的闪电
 * /gm0、/gm1、/gm2、/gm3 更改游戏模式至生存模式、创造模式、冒险模式、旁观模式
 * ~~/tsd、/tsno、/tsni、tsmn 设置游戏时间至早上、正午、傍晚、午夜~~ (Beta)
-* ~~/sp 获得一个拥有绝大多数正面状态效果的药水~~ (Beta)
+* ~~/superpotion 获得一个拥有绝大多数正面状态效果的药水~~ (Beta)
+* ~~/sp 相当于/spawnpoint~~ (Beta)
+* ~~/xpmax 将玩家等级增加238609310级~~ (Beta)
+* ~~/swordofbasic 给予玩家一个耐久三，锋利五，横扫之刃三的钻石剑~~ (Beta)
+* ~~/swordoflooting 给予玩家一个耐久三，锋利五，横扫之刃三，抢夺三的钻石剑~~ (Beta)
+* ~~/swordofsuper 给予玩家一个耐久三，锋利五，横扫之刃三，抢夺三，经验修补的**无法破坏**的钻石剑~~ (Beta)
 ## 协议 License
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可。
