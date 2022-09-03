@@ -26,8 +26,8 @@
 * /swordofbasic: Get a diamond sword has unbreaking III, sharpness V, sweeping edge III
 * /swordoflooting: Get a diamond sword has unbreaking III, sharpness V, sweeping edge III, Looting III
 * /swordofsuper: Get a **UNBREAKABLE** diamond sword has unbreaking III, sharpness V, sweeping edge III, Lootig III
-* /levitation Gives the player a level 10 levitation effect for a short time
-* /luckon, /luckoff On and off Super Lucky Mode
+* /levitation: Gives the player a level 10 levitation effect for a short time
+* /luckon, /luckoff: On and off Super Lucky Mode
 ## 命令列表
 * /glassinfo 查看mod版本
 * /gb 获得一个屏障
