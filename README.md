@@ -25,7 +25,7 @@
 * ~~/xpmax: Increase the player's level by 238609310~~ (Beta)
 * ~~/swordofbasic: Get a diamond sword has unbreaking III, sharpness V, sweeping edge III~~ (Beta)
 * ~~/swordoflooting: Get a diamond sword has unbreaking III, sharpness V, sweeping edge III, Looting III~~ (Beta)
-* ~~/swordofsuper: Get a **UNBREAKABLE** diamond sword has unbreaking III, sharpness V, sweeping edge III~~ (Beta)
+* ~~/swordofsuper: Get a **UNBREAKABLE** diamond sword has unbreaking III, sharpness V, sweeping edge III, Lootig III~~ (Beta)
 ## 命令列表
 * /glassinfo 查看mod版本
 * /gb 获得一个屏障
