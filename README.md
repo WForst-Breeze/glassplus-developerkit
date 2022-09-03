@@ -19,8 +19,8 @@
 * /ckeepint: Turn on the gamerule: keepInventory
 * /wspoint: Get the world spawn point and generate a damage-free lightning bolt there
 * /gm0, /gm1, /gm2, /gm3: Change the player's gamemode to survival, creative, adventure, spectator mode
-* /tsd、/tsno、/tsni、tsmn: Set time to day, noon, night, midnight
-* /sp: Get a potion which has most of the buff
+* ~~/tsd、/tsno、/tsni、tsmn: Set time to day, noon, night, midnight~~ (Beta)
+* ~~/sp: Get a potion which has most of the buff~~ (Beta)
 ## 命令列表
 * /glassinfo 查看mod版本
 * /gb 获得一个屏障
