@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "glasspp",
-  "version": "1.4.0_beta02",
+  "version": "1.4.0",
   "name": "Glass++ Developer Kit",
   "description": "A Useful tool kit for the develpers.",
   "authors": [

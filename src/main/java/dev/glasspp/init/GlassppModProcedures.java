@@ -13,6 +13,8 @@ import dev.glasspp.procedures.TimeSetNoonProcedure;
 import dev.glasspp.procedures.TimeSetNightProcedure;
 import dev.glasspp.procedures.TimeSetMidnightProcedure;
 import dev.glasspp.procedures.TimeSetDayProcedure;
+import dev.glasspp.procedures.SuperluckyoffProcedure;
+import dev.glasspp.procedures.SuperluckyProcedure;
 import dev.glasspp.procedures.SuperUnbreakableSwordProcedure;
 import dev.glasspp.procedures.SuperSwordWithoutMendingProcedure;
 import dev.glasspp.procedures.SuperPotionProcedure;
@@ -25,6 +27,7 @@ import dev.glasspp.procedures.KeepInventoryProcedure;
 import dev.glasspp.procedures.KeepInventoryFalseProcedure;
 import dev.glasspp.procedures.InfoProcedure;
 import dev.glasspp.procedures.GlassPpGm0Procedure;
+import dev.glasspp.procedures.FastLevitationProcedure;
 import dev.glasspp.procedures.EffectStrengthGivenProcedure;
 import dev.glasspp.procedures.EffectNightVisionGivenProcedure;
 import dev.glasspp.procedures.EffectHasteGivenProcedure;
@@ -68,5 +71,8 @@ public class GlassppModProcedures {
 		new SuperSwordWithoutMendingProcedure();
 		new SuperLootingSwordProcedure();
 		new SuperUnbreakableSwordProcedure();
+		new SuperluckyProcedure();
+		new SuperluckyoffProcedure();
+		new FastLevitationProcedure();
 	}
 }

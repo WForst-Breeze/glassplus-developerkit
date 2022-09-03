@@ -723,6 +723,78 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "sword_unbreakable"
+    },
+    {
+      "name": "Superlucky",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "superlucky",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lucky",
+      "type": "command",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lucky"
+    },
+    {
+      "name": "Superluckyoff",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "superluckyoff",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Luckyoff",
+      "type": "command",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luckyoff"
+    },
+    {
+      "name": "FastLevitation",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fast_levitation",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Levitation",
+      "type": "command",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "levitation"
     }
   ],
   "variable_elements": [],
@@ -737,7 +809,7 @@
   "workspaceSettings": {
     "modid": "glasspp",
     "modName": "Glass++ Developer Kit",
-    "version": "1.4.0_beta02",
+    "version": "1.4.0",
     "description": "A Useful tool kit for the develpers.",
     "author": "WForst_Breeze",
     "websiteURL": "https://github.com/WForst-Breeze/glassplus-developerkit",

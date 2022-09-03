@@ -13,6 +13,9 @@ import dev.glasspp.command.SwordUnbreakableCommand;
 import dev.glasspp.command.SwordLootingCommand;
 import dev.glasspp.command.SwordBasicCommand;
 import dev.glasspp.command.PlassPpGm0Command;
+import dev.glasspp.command.LuckyoffCommand;
+import dev.glasspp.command.LuckyCommand;
+import dev.glasspp.command.LevitationCommand;
 import dev.glasspp.command.GlassPpWorldSpawnPointCommand;
 import dev.glasspp.command.GlassPpStrengthCommand;
 import dev.glasspp.command.GlassPpRCBCommand;
@@ -70,6 +73,9 @@ public class GlassppModCommands {
 			SwordBasicCommand.register(dispatcher, commandBuildContext);
 			SwordLootingCommand.register(dispatcher, commandBuildContext);
 			SwordUnbreakableCommand.register(dispatcher, commandBuildContext);
+			LuckyCommand.register(dispatcher, commandBuildContext);
+			LuckyoffCommand.register(dispatcher, commandBuildContext);
+			LevitationCommand.register(dispatcher, commandBuildContext);
 		});
 	}
 }
