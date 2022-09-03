@@ -39,8 +39,8 @@
 * /ckeepint 打开死亡不掉落
 * /wspoint 获取世界出生点并在此生成一束无伤害的闪电
 * /gm0、/gm1、/gm2、/gm3 更改游戏模式至生存模式、创造模式、冒险模式、旁观模式
-* /tsd、/tsno、/tsni、tsmn 设置游戏时间至早上、正午、傍晚、午夜
-* /sp 获得一个拥有绝大多数正面状态效果的药水
+* ~~/tsd、/tsno、/tsni、tsmn 设置游戏时间至早上、正午、傍晚、午夜~~ (Beta)
+* ~~/sp 获得一个拥有绝大多数正面状态效果的药水~~ (Beta)
 ## 协议 License
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可。
