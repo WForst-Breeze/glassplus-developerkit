@@ -19,13 +19,7 @@ public class ChainCommandblockGivenProcedure {
 			Entity _ent = entity;
 			if (!_ent.level.isClientSide() && _ent.getServer() != null)
 				_ent.getServer().getCommands().performPrefixedCommand(_ent.createCommandSourceStack().withSuppressedOutput().withPermission(4),
-						"give @p minecraft:chain_command_block");
-		}
-		{
-			Entity _ent = entity;
-			if (!_ent.level.isClientSide() && _ent.getServer() != null)
-				_ent.getServer().getCommands().performPrefixedCommand(_ent.createCommandSourceStack().withSuppressedOutput().withPermission(4),
-						"tellraw @p \"chain command block has been given, pealse check your inventory\"");
+						"tellraw @p {\"text\u201C:\"This command cannot be executed correctly, reason: there is a known bug\",\"color\":\"red\"}");
 		}
 	}
 }

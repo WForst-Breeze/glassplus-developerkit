@@ -25,7 +25,7 @@ public class SuperluckyoffProcedure {
 			Entity _ent = entity;
 			if (!_ent.level.isClientSide() && _ent.getServer() != null)
 				_ent.getServer().getCommands().performPrefixedCommand(_ent.createCommandSourceStack().withSuppressedOutput().withPermission(4),
-						"tellraw @p \"Super luck [off]\"");
+						"tellraw @p \"Super lucky [off]\"");
 		}
 	}
 }

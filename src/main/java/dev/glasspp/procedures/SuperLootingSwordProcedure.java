@@ -19,7 +19,7 @@ public class SuperLootingSwordProcedure {
 			Entity _ent = entity;
 			if (!_ent.level.isClientSide() && _ent.getServer() != null)
 				_ent.getServer().getCommands().performPrefixedCommand(_ent.createCommandSourceStack().withSuppressedOutput().withPermission(4),
-						"/give @s minecraft:diamond_sword{display:{Name:'{\"text\":\"The Sword of GlassPlus+\",\"color\":\"gold\"}'},Enchantments:[{id:\"sharpness\",lvl:5},{id:\"unbreaking\",lvl:3},{id:\"sweeping\",lvl:3},{id:\"looting\",lvl:3}]} 1");
+						"/give @s minecraft:diamond_sword{display:{Name:'{\"text\":\"The Sword of Glass+\",\"color\":\"gold\"}'},Enchantments:[{id:\"sharpness\",lvl:5},{id:\"unbreaking\",lvl:3},{id:\"sweeping\",lvl:3},{id:\"looting\",lvl:3}]} 1");
 		}
 	}
 }
