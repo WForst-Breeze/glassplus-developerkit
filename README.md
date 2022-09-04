@@ -1,7 +1,7 @@
 # 前言 Preface
 这是我的第一个MCreator作品，是个非常简单的辅助型模组！用于缩短某些冗长的常用指令，这样生电党就可以提升机器设计与调试效率了！
 <br />This is my first MCreator work, a very simple auxiliary mod! Used to shorten some lengthy commands, so that machine developers can improve the efficiency of machine design and debugging!
-Link: [Modrinth](https://modrinth.com/mod/wfbs-ez-commands/)
+**<br />Link: [Modrinth](https://modrinth.com/mod/wfbs-ez-commands/)**
 ## Command List
 * /glassinfo: Check the version of the mod
 * /gb: Get a barrier
