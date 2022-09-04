@@ -6,7 +6,7 @@
 * /gb: Get a barrier
 * /gcb: Get a command block
 * /grcb: Get a repeating command block
-* /gccb: Get a chain command block
+* ~~/gccb: Get a chain command block~~
 * /gstick: Get a debug stick
 * /efh: Gain time 999999 seconds, level 128 haste effect
 * /efs: Gain time 999999 seconds, level 256 strength effect
@@ -25,7 +25,7 @@
 * /xpmax: Increase the player's level by 238609310
 * /swordofbasic: Get a diamond sword has unbreaking III, sharpness V, sweeping edge III
 * /swordoflooting: Get a diamond sword has unbreaking III, sharpness V, sweeping edge III, Looting III
-* /swordofsuper: Get a **UNBREAKABLE** diamond sword has unbreaking III, sharpness V, sweeping edge III, Lootig III
+* /swordofsuper: Get a **UNBREAKABLE** diamond sword has unbreaking III, sharpness V, sweeping edge III, Looting III
 * /levitation: Gives the player a level 10 levitation effect for a short time
 * /luckon, /luckoff: On and off Super Lucky Mode
 ## 命令列表
@@ -33,7 +33,7 @@
 * /gb 获得一个屏障
 * /gcb 获得一个命令方块
 * /grcb 获得一个循环型命令方块
-* /gccb 获得一个连锁型命令方块
+* ~~/gccb 获得一个连锁型命令方块~~
 * /gstick 获得一个调试棒
 * /efh 获得时间为999999秒，等级128的急迫效果
 * /efs 获得时间为999999秒，等级256的力量效果
