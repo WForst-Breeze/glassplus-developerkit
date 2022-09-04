@@ -55,7 +55,7 @@
 * /swordofsuper 给予玩家一个耐久三，锋利五，横扫之刃三，抢夺三，经验修补的**无法破坏**的钻石剑
 * /levitation 短时间给予玩家10级漂浮效果
 * /luckon、/luckoff 开、关超级幸运模式
+### 中文版下载请前往Releases，下载标有“CN”字样的**pre-release**版本
 ## 协议 License
-
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可。
 </a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
