@@ -871,8 +871,8 @@
     "mcreatorDependencies": [],
     "currentGenerator": "fabric-1.19.2",
     "credits": "Made with MCreator",
-    "modElementsPackage": "wfb.commands",
+    "modElementsPackage": "wfbmod.commands",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200234517
+  "mcreatorVersion": 202200345616
 }

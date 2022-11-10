@@ -16,10 +16,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "wfb.commands.WfbCommandsMod"
+      "wfbmod.commands.WfbCommandsMod"
     ],
     "client": [
-      "wfb.commands.ClientInit"
+      "wfbmod.commands.ClientInit"
     ]
   },
   "depends": {
