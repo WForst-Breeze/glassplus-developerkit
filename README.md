@@ -9,7 +9,7 @@ This is my first MCreator work, a very simple auxiliary mod! Used to shorten som
 * /gb: Get a barrier
 * /gcb: Get a command block
 * /grcb: Get a repeating command block
-* 🐞 ~~/gccb: Get a chain command block~~
+* /gccb: Get a chain command block~~
 * /gstick: Get a debug stick
 * /efh: Gain time 999999 seconds, level 128 haste effect
 * /efs: Gain time 999999 seconds, level 256 strength effect
@@ -29,7 +29,8 @@ This is my first MCreator work, a very simple auxiliary mod! Used to shorten som
 * /swordofbasic: Get a diamond sword has unbreaking III, sharpness V, sweeping edge III
 * /swordoflooting: Get a diamond sword has unbreaking III, sharpness V, sweeping edge III, Looting III
 * /swordofsuper: Get a **UNBREAKABLE** diamond sword has unbreaking III, sharpness V, sweeping edge III, Looting III
-* 🐞 ~~/levitation: Gives the player a level 10 levitation effect for a short time~~
+* /levitation: Gives the player a level 10 levitation effect for a short time~~
 * /luckon, /luckoff: On and off Super Lucky Mode
+* /setp, /seth: Set the difficulty to peaceful, hard
 ## ✒ License
 **</a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.**</br><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a>
