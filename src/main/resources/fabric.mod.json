@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "glasspp",
-  "version": "1.4.1",
-  "name": "Glass++ Developer Kit",
+  "id": "wfb_commands",
+  "version": "1.5.0",
+  "name": "WFB's EZ Commands",
   "description": "A Useful tool kit for the develpers.",
   "authors": [
     "WForst_Breeze"
@@ -12,14 +12,14 @@
     "sources": ""
   },
   "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
-  "icon": "assets/glasspp/icon.png",
+  "icon": "assets/wfb_commands/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "dev.glasspp.GlassppMod"
+      "wfb.commands.WfbCommandsMod"
     ],
     "client": [
-      "dev.glasspp.ClientInit"
+      "wfb.commands.ClientInit"
     ]
   },
   "depends": {
