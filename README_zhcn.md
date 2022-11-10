@@ -1,4 +1,4 @@
-# 🛠 前言 Preface
+# 🛠 前言
 这是我的第一个MCreator作品，是个非常简单的辅助型模组！用于缩短某些冗长的常用指令，这样生电党就可以提升机器设计与调试效率了！ 
 ### **📢 Forge 版本已发布！前往 Modrinth 或 Curseforge 下载！ 📢**
 ### **链接: [Modrinth](https://modrinth.com/mod/wfbs-ez-commands/) [Curseforge](https://www.curseforge.com/minecraft/mc-mods/wfbs-easy-commands)**
@@ -32,4 +32,3 @@
 ### 中文版下载请前往Releases，下载标有“CN”字样的**pre-release**版本
 ## ✒ 协议 License
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可。
-</a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
