@@ -1,4 +1,4 @@
-# 💎WFB Easy Commands! ⛏
+# 💎WFB 的簡單命令！⛏
 [English](https://github.com/WForst-Breeze/glassplus-developerkit/blob/main/README.md) | [简体中文](https://github.com/WForst-Breeze/glassplus-developerkit/blob/main/README_zhcn.md) | **繁體中文**
 # 🛠 前言
 這是我的第一個MCreator作品，是個非常簡單的輔助型模組！用於縮短某些冗長的常用指令，這樣生電黨就可以提昇機器設計與調試效率了！
