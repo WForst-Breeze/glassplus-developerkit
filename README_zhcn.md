@@ -9,7 +9,7 @@
 * /gb 获得一个屏障
 * /gcb 获得一个命令方块
 * /grcb 获得一个循环型命令方块
-* 🐞 ~~/gccb 获得一个连锁型命令方块~~
+* /gccb 获得一个连锁型命令方块~~
 * /gstick 获得一个调试棒
 * /efh 获得时间为999999秒，等级128的急迫效果
 * /efs 获得时间为999999秒，等级256的力量效果
@@ -29,8 +29,9 @@
 * /swordofbasic 给予玩家一个耐久三，锋利五，横扫之刃三的钻石剑
 * /swordoflooting 给予玩家一个耐久三，锋利五，横扫之刃三，抢夺三的钻石剑
 * /swordofsuper 给予玩家一个耐久三，锋利五，横扫之刃三，抢夺三，经验修补的**无法破坏**的钻石剑
-* 🐞 ~~/levitation 短时间给予玩家10级漂浮效果~~
+* /levitation 短时间给予玩家10级漂浮效果~~
 * /luckon、/luckoff 开、关超级幸运模式
-### 中文版下载请前往Releases，下载标有“CN”字样的**pre-release**版本
+* /setp, /seth: 将游戏难度设置为和平或困难
+### 简体中文版下载请前往Releases，下载标有“CN”字样的**pre-release**版本
 ## ✒ 协议 License
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可。
