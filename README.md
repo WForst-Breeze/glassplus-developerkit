@@ -1,6 +1,6 @@
 # 💎WFB's Easy Commands! ⛏
 **English** | [简体中文](https://github.com/WForst-Breeze/glassplus-developerkit/blob/main/README_zhcn.md) | [繁體中文](https://github.com/WForst-Breeze/glassplus-developerkit/blob/main/README_zhhk.md)  
-#### 此项目半弃坑，仅作版本升级适配方面的维护，不再添加新内容
+#### 黑历史，此项目已被放弃。已停止支持
 # 🛠 Preface
 This is my first MCreator work, a very simple auxiliary mod! Used to shorten some lengthy commands, so that machine developers can improve the efficiency of machine design and debugging!
 ### **📢 FORGE VERSION IS OUT! Download it in Modrinth or Curseforge! 📢**
