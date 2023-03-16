@@ -1,6 +1,11 @@
+<div align="center">
+
+### 黑历史，此项目已被放弃。已停止支持 **This Project has been abandoned.**
+</div>
+
+---
 # 💎WFB's Easy Commands! ⛏
 **English** | [简体中文](https://github.com/WForst-Breeze/glassplus-developerkit/blob/main/README_zhcn.md) | [繁體中文](https://github.com/WForst-Breeze/glassplus-developerkit/blob/main/README_zhhk.md)  
-#### 黑历史，此项目已被放弃。已停止支持
 # 🛠 Preface
 This is my first MCreator work, a very simple auxiliary mod! Used to shorten some lengthy commands, so that machine developers can improve the efficiency of machine design and debugging!
 ### **📢 FORGE VERSION IS OUT! Download it in Modrinth or Curseforge! 📢**
